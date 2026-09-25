@@ -56,10 +56,12 @@ function App() {
               className="form-select"
               value={categoria}
               onChange={(e) => setCategoria(e.target.value)}
-            >
+>
               <option value="Todas">Todas</option>
               <option value="Música">Música</option>
               <option value="Artes visuales">Artes visuales</option>
+              <option value="Teatro">Teatro</option>
+              <option value="Danza">Danza</option>
             </select>
           </div>
         </div>
